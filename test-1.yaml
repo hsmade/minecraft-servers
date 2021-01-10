@@ -5,7 +5,12 @@ metadata:
 spec:
   enabled: true
   minecraft:
-    version: latest
+    version: 11.0.7-jre
+    image: openjdk
+    serverURL: https://launcher.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3d7cd/server.jar
+    properties: |
+      difficulty=easy
+      gamemode=creative
   storage:
     path: /tmp/minecraft-test-1
     size: 5Gi
