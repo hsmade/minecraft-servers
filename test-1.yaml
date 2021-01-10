@@ -7,7 +7,7 @@ spec:
   minecraft:
     version: 1.14.4
     type: FORGE
-    mods: "https://www.dropbox.com/s/4dp3mqwrqvne9na/cfm-7.0.0-pre15-mc1.14.4.jar"
+    mods: "https://fournier.nl/cfm-7.0.0-pre15-mc1.14.4.jar"
   storage:
     path: /tmp/minecraft-test-1
     size: 5Gi
