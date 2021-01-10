@@ -5,7 +5,8 @@ metadata:
 spec:
   enabled: true
   minecraft:
-    serverURL: https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.14.4-28.2.23/forge-1.14.4-28.2.23-launcher.jar
+    version: 1.14.4
+    type: FORGE
     mods:
     - filename: cfm.jar
       url: "https://www.dropbox.com/s/4dp3mqwrqvne9na/cfm-7.0.0-pre15-mc1.14.4.jar?dl=1"
