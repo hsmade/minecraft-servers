@@ -6,8 +6,6 @@ metadata:
 spec:
   enabled: false
   minecraft:
-    name: survival-creative
-    motd: survival-creative
     version: 1.3
     type: VANILLA
   storage:
@@ -16,12 +14,10 @@ spec:
 apiVersion: hsmade.com/v1alpha1
 kind: Minecraft
 metadata:
-  name: 1.2.1
+  name: server-1.2.1
 spec:
   enabled: false
   minecraft:
-    name: 1.2.1
-    motd: 1.2.1
     version: 1.2.1
     type: VANILLA
   storage:
@@ -34,8 +30,6 @@ metadata:
 spec:
   enabled: false
   minecraft:
-    name: server1
-    motd: server1
     version: 1.14.4
     type: FORGE
     mods: "https://fournier.nl/mods/cfm-7.0.0-pre11-mc1.14.4.jar,https://fournier.nl/mods/worldedit-forge-mc1.14.4-7.0.1.jar"
