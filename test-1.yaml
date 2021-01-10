@@ -3,7 +3,7 @@ kind: Minecraft
 metadata:
   name: minecraft-test-1
 spec:
-  enabled: true
+  enabled: false
   minecraft:
     version: 1.14.4
     type: FORGE
