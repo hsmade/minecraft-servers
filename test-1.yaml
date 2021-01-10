@@ -1,14 +1,45 @@
+---
 apiVersion: hsmade.com/v1alpha1
 kind: Minecraft
 metadata:
-  name: minecraft-test-1
+  name: survival-creative
 spec:
   enabled: false
   minecraft:
+    name: survival-creative
+    motd: survival-creative
+    version: 1.3
+    type: VANILLA
+  storage:
+    path: /srv/minecraft/survival-creative
+---
+apiVersion: hsmade.com/v1alpha1
+kind: Minecraft
+metadata:
+  name: 1.2.1
+spec:
+  enabled: false
+  minecraft:
+    name: 1.2.1
+    motd: 1.2.1
+    version: 1.2.1
+    type: VANILLA
+  storage:
+    path: /srv/minecraft/1.2.1
+---
+apiVersion: hsmade.com/v1alpha1
+kind: Minecraft
+metadata:
+  name: server1
+spec:
+  enabled: false
+  minecraft:
+    name: server1
+    motd: server1
     version: 1.14.4
     type: FORGE
-    mods: "https://fournier.nl/mods/cfm-7.0.0-pre11-mc1.14.4.jar"
+    mods: "https://fournier.nl/mods/cfm-7.0.0-pre11-mc1.14.4.jar,https://fournier.nl/mods/worldedit-forge-mc1.14.4-7.0.1.jar"
   storage:
-    path: /tmp/minecraft-test-1
-    size: 5Gi
+    path: /srv/minecraft/server1
+  
   
