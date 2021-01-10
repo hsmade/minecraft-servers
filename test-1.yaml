@@ -1,0 +1,12 @@
+apiVersion: hsmade.com/v1alpha1
+kind: Minecraft
+metadata:
+  name: minecraft-test-1
+spec:
+  enabled: true
+  minecraft:
+    version: latest
+  storage:
+    path: /tmp/minecraft-test-1
+    size: 5Gi
+  
