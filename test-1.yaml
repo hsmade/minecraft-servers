@@ -14,7 +14,7 @@ spec:
 apiVersion: hsmade.com/v1alpha1
 kind: Minecraft
 metadata:
-  name: server-1.2.1
+  name: server-1-2-1
 spec:
   enabled: false
   minecraft:
